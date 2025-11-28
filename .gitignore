@@ -1,0 +1,20 @@
+# --- Security (NEVER upload these) ---
+.env
+secrets.json
+
+# --- Python ---
+__pycache__/
+*.pyc
+venv/
+.pytest_cache/
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# --- OS Junk ---
+.DS_Store
+Thumbs.db
+
+# --- Large/Data Files (Optional) ---
+# If you have large datasets, ignore them so you don't hit GitHub limits
+datasets/
+*.csv.env
